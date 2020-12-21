@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  
+  <body>
+    <div id="home">
+      <h1>¡Bienvenido!</h1>
+      <h3>Esta plataforma es  tu botón de pánico virtual, y se creo con la finalidad de que las 
+        y los integrantes de esta comunidad laboral puedan denunciar de manera confidencial  
+        algún acto ilícito que se ha cometido en su entorno laboral, como abuso de poder, acoso, 
+        entre otros, siempre buscando que sea de la manera más segura posible y salvaguardando su 
+        identidad si es que así lo desea.</h3>
+    </div>
+    
+   
+    <div id="Cifrado y Descifrado">
+      <h6>Escribe aquí tu denuncia</h6>
+
+    <div name=textoacifrar>
+      <textarea class="mensajes" id="mensaje" rows="10" cols="50" placeholder="Escribe tu denuncia"></textarea required=""><br>
+      <p> <input type="number" id="displacement" min="1" max="26" required=""></p>
+      <button class="botones" id="botton">cifrar</button>
+      <h3 id="resultado cifrado"></h3>
+
+      
+      <textarea class="mensajes" id="mensaje2" rows="10" cols="50" placeholder="Escribe un mensaje cifrado"></textarea required=""><br>
+      <p> <input type="number" id="displacement2" min="1" max="26" required=""></p>
+      <button class="botones" id="botton2">descifrar</button>
+      <h3 id="resultado descifrado"></h3>
+     </div>
+    </div>
+    <h3 id="resultadocifrado"></h3>
+    
+    
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
